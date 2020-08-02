@@ -13,6 +13,6 @@ spring:
 
 ereview:
     password: theboss
-    username: {cipher}6e00660c84620b12fd5f016c2c7439458bd7c9bac93f7e334abcd5ca3a8c058c
+    username: karthik
     query: select  manager_flag from rating e where empName = ?1 limit 1
   
