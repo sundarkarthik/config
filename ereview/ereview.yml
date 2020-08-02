@@ -12,7 +12,7 @@ spring:
         show-sql: true
 
 ereview:
-    password: theboss
+    password: '{cipher}fed5a66750f631813a6d644c47d7adea5219fa1b843d41b674ea3d81139a4121'
     username: karthik
     query: select  manager_flag from rating e where empName = ?1 limit 1
   
